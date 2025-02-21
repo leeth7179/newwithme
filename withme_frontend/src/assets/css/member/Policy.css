@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+.description-container .icon {
+    width: 100px;
+    height: auto;
+}
+
+.box, .fontawesome-icon {
+    margin-right: 40px;
+}
+
+.description-container .fontawesome-icon {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+h3, label {
+    text-align: left;
+}
+
+.terms-container {
+    width: 40%;
+    max-width: 650px;
+    border-top: 1px solid #ccc;
+}
+
+.box2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.terms-box textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.terms-box label {
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+input {
+    display: inline-block;
+    width: 30px;
+}
+
+
+.submit-btn {
+    margin-top: 30px;
+    background-color: #ff7c24;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.2em;
+    margin-bottom: 200px;
+}
+
+.submit-btn:hover {
+    background-color: #e67022;
+}

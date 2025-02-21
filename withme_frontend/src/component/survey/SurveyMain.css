@@ -1,0 +1,69 @@
+/* SurveyMain.css */
+.survey-container {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 문진 제목 */
+.survey-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 문진 설명 */
+.survey-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* 문진 선택 버튼 */
+.survey-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.survey-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.survey-button.free {
+  background-color: #4caf50;
+}
+
+.survey-button.paid {
+  background-color: #2196f3;
+}
+
+.survey-button:hover {
+  filter: brightness(90%);
+}
+
+/* 뒤로 가기 버튼 */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.back-button:hover {
+  color: #ff5733;
+}

@@ -1,0 +1,21 @@
+/* styles.css */
+.questionnaire-page {
+  padding: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.choices {
+  margin-left: 20px;
+}
+
+button {
+  margin: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}

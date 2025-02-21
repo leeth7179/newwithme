@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+
+.description-container .icon {
+    width: 100px;
+    height: auto;
+}
+
+.box, .fontawesome-icon {
+    margin-right: 40px;
+}
+
+.description-container .fontawesome-icon {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+h3, label {
+    text-align: left;
+}

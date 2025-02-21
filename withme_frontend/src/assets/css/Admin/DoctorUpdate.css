@@ -1,0 +1,108 @@
+/* DoctorUpdate.css */
+.doctor-update-container {
+    padding: 2rem;
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.doctor-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-table th, .doctor-table td {
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.doctor-table th {
+    background-color: #f3f4f6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detail-button {
+    padding: 0.5rem 1rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.detail-button:hover {
+    background-color: #059669;
+}
+
+.no-data {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #6b7280;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.modal-button:hover {
+    background-color: #dc2626;
+}
+
+
+.modal-button-approved {
+  background-color: green;
+}
+
+.modal-button-rejected {
+  background-color: red;
+}
+
+.modal-button-on_hold {
+  background-color: orange;
+}
+
+.modal-button-pending {
+  background-color: gray;
+}

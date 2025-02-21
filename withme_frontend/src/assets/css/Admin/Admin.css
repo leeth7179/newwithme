@@ -1,0 +1,114 @@
+/* Admin.css */
+.admin-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.side-menu {
+    width: 20%;
+    height: 100%;
+    background-color: #353535;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+    flex-grow: 1;
+}
+
+.menu-header {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.menu-items {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.menu-items.show {
+    max-height: 500px;
+}
+
+/* active된 메뉴 항목 스타일 */
+.menu-header.active {
+    background-color: #1A6DFF;
+    color: white;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 5px 40px;
+    color: #9E9E9E;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu-item:hover {
+    text-decoration: none;
+    color: #D7D7D7;
+}
+
+.main-content {
+    width: 85%;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.left-icon {
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+.right-icon {
+    margin-left: auto;
+}
+
+/* 계정 프로필 */
+.admin-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 2px solid #4B4B4B;
+}
+
+.profile-icon {
+    font-size: 5.5em;
+    margin-bottom: 10px;
+}
+
+.admin-profile p {
+    margin: 10px;
+}
+
+.exit-btn {
+    width: 80%;
+    padding: 10px;
+    background-color: #353535;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.exit-btn:hover {
+    background-color: #353535;
+}

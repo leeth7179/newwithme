@@ -1,0 +1,131 @@
+.doctor-application-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.status-header{
+width : 500px;
+height : 100px;
+display : flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+font-weight: bold;
+margin-bottom: 15px;
+margin-top : 20px;
+border : 1px solid #ccc;
+border-radius: 20px;
+
+}
+
+.status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.status-step {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+    background-image: url('/assets/images/dog-f.jpg');
+    background-size: cover;
+    margin-top: -20px;
+}
+
+.status-step p {
+    text-align: center;
+    margin-top: 45px;
+    }
+
+.status-step.active {
+    border : 2px solid #a9bafb;
+    border-radius: 50%;
+    color: white;
+}
+
+.status-step.rejected {
+    border : 2px solid #f9bcbc;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+}
+
+
+
+.status-reason {
+    font-size : 50px;
+    align-content: center;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffcccc;
+    color: #a00;
+    font-weight: bold;
+    display: none;
+
+}
+
+.status-reason.active {
+    display: block;
+
+}
+
+.doctor-info {
+    display: grid;
+    grid-template-columns: auto 1fr; /* 왼쪽(제목) 너비 자동, 오른쪽(값) 가변 */
+    gap: 10px 20px; /* 행과 열 간격 설정 */
+    align-items: start; /* 제목을 위쪽 정렬 */
+    text-align: left;
+    width: 100%;
+    max-width: 500px; /* 내용이 너무 퍼지지 않도록 */
+    margin: 20px auto;
+    font-size : 23px;
+
+}
+
+.doctor-info p {
+    margin: 10px;
+}
+
+.doctor-info strong {
+    align-self: start; /* 제목을 왼쪽 위 정렬 */
+    text-align: left;
+    font-weight: bold;
+}
+
+.doctor-info p:nth-child(even) { /* 값(데이터)만 선택 */
+    text-align: right; /* 오른쪽 아래 정렬 */
+    align-self: end;
+}
+
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: black;
+
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom : 40px;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}

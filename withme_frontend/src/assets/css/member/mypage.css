@@ -1,0 +1,219 @@
+.footer {
+  margin-top: 0 !important;
+}
+
+.my_edit_container {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  word-break: keep-all;
+  .my_wrap {
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 41px;
+    margin-top: 50px;
+  }
+}
+
+.page_container {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  word-break: keep-all;
+}
+
+.page_title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.my_wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  .grid_box {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 32px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .left_section {
+    padding: 40px 30px;
+
+    .section {
+      margin-bottom: 50px;
+
+      &_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #333;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+
+        h2 {
+          font-size: 1.25rem;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .post_card {
+      margin-top: 30px;
+      .subtitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #333;
+
+        p {
+          font-weight: 500;
+          font-size: 1rem;
+        }
+
+        span {
+          font-size: 0.875rem;
+          color: #666;
+        }
+      }
+
+      .item_list {
+        li {
+          padding: 10px 0;
+          border-bottom: 1px solid #f0f0f0;
+          font-size: 0.95rem;
+          color: #333;
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+
+      .empty_message {
+        text-align: center;
+        padding: 30px 0;
+        color: #999;
+      }
+
+      .comment_section {
+        margin-top: 40px;
+      }
+    }
+
+    .pet_section {
+      .pet_list {
+        margin-bottom: 20px;
+      }
+
+      .pet_item {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #f0f0f0;
+        cursor: pointer;
+        transition: background-color 0.2s;
+
+        &:hover {
+          background-color: #f9f9f9;
+        }
+
+        .pet_image_container {
+          margin-right: 15px;
+        }
+
+        .pet_image {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .register_button {
+        margin-top: 20px;
+        background-color: #4caf50;
+        color: white;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .info_section {
+    background-color: #f8f9fa;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .section_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #333;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+
+      .edit_buttons {
+        display: flex;
+        gap: 15px;
+
+        span {
+          font-size: 0.875rem;
+          color: #666;
+          cursor: pointer;
+          transition: color 0.2s;
+
+          &:hover {
+            color: #333;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .info_container {
+      .info_user {
+        margin-bottom: 20px;
+
+        h6 {
+          font-size: 1.2rem;
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+      }
+
+      .points {
+        font-size: 1rem;
+        color: #4caf50;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+/* 펫상세 */
+.flex_box {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  gap: 10px;
+  button {
+    width: 100%;
+  }
+}

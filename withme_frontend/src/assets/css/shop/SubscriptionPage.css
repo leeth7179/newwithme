@@ -1,0 +1,92 @@
+/* 전체 페이지를 가운데 정렬 */
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 화면 전체 높이 */
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 상품 정보 박스 스타일링 */
+.subscription-item {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+.subscription-item h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 가격 스타일 */
+.subscription-item p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* 혜택 안내 제목 */
+.subscription-info p {
+    font-size: 20px;
+    color: #4caf50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center; /* 문구 중앙 정렬 */
+}
+
+/* 혜택 리스트 스타일 */
+.subscription-info ul {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* 혜택 항목 스타일 */
+.subscription-info ul li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 버튼 hover 효과 */
+button:hover {
+    background-color: #45a049;
+}
+
+/* 결제 화면 스타일 */
+.payment-container {
+    margin-top: 20px;
+}
+
+/* 결제 컴포넌트 스타일 */
+.payment-container iframe {
+    border: none;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
